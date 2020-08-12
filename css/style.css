@@ -90,7 +90,13 @@
 .categories_nav .nav-tabs{
     justify-content: center;
     background-color: #feb300;
+    
+}
+.categories_nav .nav-tabs li{
     padding: 8px 0;
+}
+.categories_nav .slide{
+    width: 6%;
 }
 .categories_nav .nav-tabs a{
     color: #fff;
@@ -177,6 +183,7 @@
     margin-bottom: 10px;
     border: 1px solid rgb(177, 177, 177);
 }
+
 .ads-section .ad-box img{
     width: 100%;
 }
@@ -199,6 +206,9 @@
     background-color: #dbe3ee;
   
 }
+.user-ad-box:hover{
+    background-color: #c8d9f1;
+}
 .user-ad-box .ad-title{
     background-color: #d1d1d1;
     padding: 3px 8px;
@@ -218,6 +228,9 @@
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
+}
+.user-ad-box .ad-img img {
+    width: 100%;
 }
 .user-ad-box .ad-description{
     margin-top: 5px;
